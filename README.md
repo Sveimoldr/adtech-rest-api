@@ -25,19 +25,19 @@ AdTech Data Dashboard is a Django-based web application designed to provide real
 
 1. **Clone the Repository**
     
-    bashCopy code
+    
     
     `git clone https://github.com/yourusername/AdTechDataDashboard.git cd AdTechDataDashboard`
     
 2. **Set Up a Virtual Environment** (Recommended)
     
-    Copy code
+    
     
     `` python -m venv venv source venv/bin/activate  # On Windows use `venv\Scripts\activate` ``
     
 3. **Install Dependencies**
     
-    Copy code
+    
     
     `pip install -r requirements.txt`
     
@@ -48,13 +48,13 @@ AdTech Data Dashboard is a Django-based web application designed to provide real
     - Update `AdTechDashboard/settings.py` with your database settings.
 5. **Run Database Migrations**
     
-    Copy code
+   
     
     `python manage.py makemigrations python manage.py migrate`
     
 6. **Start the Development Server**
     
-    Copy code
+   
     
     `python manage.py runserver`
     
@@ -68,13 +68,9 @@ Use the custom Django management command to generate mock ad data.
 
 For example, to generate 100 entries, run:
 
-Copy code
-
 `python manage.py generate_mockdata 100`
 
 ## Usage
-
-- Access the web interface at `http://localhost:8000/`.
 - API endpoints can be accessed at `http://localhost:8000/api/`.
 - API mocked data can be accessed at `http://localhost:8000/api/ad_data`.
 

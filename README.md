@@ -31,7 +31,7 @@ AdTech Data Dashboard is a Django-based web application designed to provide real
     
 2. **Set Up a Virtual Environment** (Recommended)
     
-    bashCopy code
+    Copy code
     
     `` python -m venv venv source venv/bin/activate  # On Windows use `venv\Scripts\activate` ``
     
